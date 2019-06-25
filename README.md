@@ -9,6 +9,7 @@
 ---
 ## Создание проекта
 * Открываем Visual Studio
+
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/01.png)
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/02.png)
 * Создаем проект
