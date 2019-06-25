@@ -1,51 +1,33 @@
 # HSE Summer School 2019
-
 **Для начала работы у вас должна быть установлена [Visual Studio](https://visualstudio.microsoft.com/ru/) и Xamarin**
-
 ---
-
 ## Оглавление:
-
 1) [Создание проекта](#Создание-проекта)
 2) [Устанавливаем дополнения](#Устанавливаем-дополнения)
 3) []()
 4) []()
 5) []()
-
 ---
-
 ## Создание проекта
 * Открываем Visual Studio
-
-![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/01.png)
-![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/02.png)
-
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-  2019/blob/master/Visual%20Studio%20App%20Center/01.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/02.png)
 * Создаем проект
-
-![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/03.png)
-
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/03.png)
 * Выбираем между:
   * xamarin.forms
   * xamarin.android
   * xamarin.ios
-
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/04.png)
 ```
 Лично я выбрал xamarin.android
 ```
-
-![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/04.png)
-
 * Назначаем путь и название
-
-![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/05.png)
-
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/05.png)
 * Выбираем шаблон
-
-![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/06.png)
-
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/06.png)
 * Видем перед собой открытый файл MainActivity.cs
-
-![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/07.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/07.png)
 
 [:arrow_up:Оглавление](#Оглавление)
 
@@ -59,12 +41,9 @@
 
 * В ```обзоре``` ищем:
   * ```Microsoft.AppCenter.Crashes```
-  
-![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/09.png)
-
-  * Microsoft.AppCenter.Analytics
-
-![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/10.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/09.png)
+  * ```Microsoft.AppCenter.Analytics```
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/10.png)
  
 * Устанавливаем
 
