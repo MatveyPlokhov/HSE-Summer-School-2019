@@ -58,14 +58,18 @@
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/08.png)
 
 * В ```обзоре``` ищем:
- * Microsoft.AppCenter.Crashes
- ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/09.png)
- * Microsoft.AppCenter.Analytics
- ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/10.png)
+  * ```Microsoft.AppCenter.Crashes```
+  
+![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/09.png)
+
+  * Microsoft.AppCenter.Analytics
+
+![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/10.png)
  
 * Устанавливаем
 
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/11.png)
+
 [:arrow_up:Оглавление](#Оглавление)
 
 ---
