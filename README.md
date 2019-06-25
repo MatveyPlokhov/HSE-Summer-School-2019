@@ -82,8 +82,13 @@
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/22.png)
 * После запуска эмулятора в окне ```analytics/overview``` у нас появляетя первая статистика
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/23.png)
-
+  
+[:arrow_up:Оглавление](#Оглавление)
+---
 ## Ссылки которые могут пригодиться:
 * [Get Started with Xamarin](https://docs.microsoft.com/en-us/appcenter/sdk/getting-started/xamarin)
 * [App Center Crashes](https://docs.microsoft.com/en-us/appcenter/sdk/crashes/xamarin)
 * [Log Events and Crashes](http://patrickgoode.com/log-events-and-crashes-in-xamarin-forms-with-app-center/)
+
+[:arrow_up:Оглавление](#Оглавление)
+---
