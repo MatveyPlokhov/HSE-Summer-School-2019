@@ -70,10 +70,9 @@
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/17.png)
 * Вставляем текст в начало кода 
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/18.png)
-* Далее копируем подобные строки кода:
+* Далее копируем похожую строку кода:
   ```
-  AppCenter.Start("05590a09-7a1d-45c4-b3bf-ec0d40c7a33c",
-                   typeof(Analytics), typeof(Crashes));
+  AppCenter.Start("05590a09-7a1d-45c4-b3bf-ec0d40c7a33c", typeof(Analytics), typeof(Crashes));
   ```
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/19.png)
 * Вставляем скопированный код в метод ```OnCreate()```
