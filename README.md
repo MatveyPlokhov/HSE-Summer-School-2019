@@ -1,4 +1,4 @@
-# HSE-Summer-School-2019
+# HSE Summer School 2019
 ---
 ## Оглавление:
 1) [Создание проекта](#Создание-проекта)
@@ -17,8 +17,6 @@
   * xamarin.forms
   * xamarin.android
   * xamarin.ios
-  
-> Лично я выбрал xamarin.android
 
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/04.png)
 * Назначаем путь и название
