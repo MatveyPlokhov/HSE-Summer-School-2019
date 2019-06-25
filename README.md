@@ -1,5 +1,7 @@
 # HSE Summer School 2019
 
+**Для начала работы у вас должна быть установлена [Visual Studio](https://visualstudio.microsoft.com/ru/) и Xamarin**
+
 ---
 
 ## Оглавление:
@@ -27,6 +29,10 @@
   * xamarin.android
   * xamarin.ios
 
+```
+Лично я выбрал xamarin.android
+```
+
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/04.png)
 
 * Назначаем путь и название
@@ -38,6 +44,7 @@
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/06.png)
 
 * Видем перед собой открытый файл MainActivity.cs
+
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/07.png)
 
 [:arrow_up:Оглавление](#Оглавление)
@@ -45,6 +52,8 @@
 ---
 
 ## Устанавливаем дополнения
+
+* В окне ```обозреватель решений``` нажимаем правой кнопкой мыши на проект и выбираем ```управление пакетами NuGet...```
 
 [:arrow_up:Оглавление](#Оглавление)
 
