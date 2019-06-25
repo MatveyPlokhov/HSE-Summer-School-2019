@@ -44,7 +44,7 @@
   
 [:arrow_up:Оглавление](#Оглавление)
 ---
-##App Center
+## App Center
 * Открываем [App Center](https://appcenter.ms/)
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/12.png)
 * Входим/Регистрируемся
