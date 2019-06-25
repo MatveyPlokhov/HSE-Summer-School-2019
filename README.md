@@ -1,36 +1,53 @@
 # HSE Summer School 2019
+
 ---
+
 ## Оглавление:
+
 1) [Создание проекта](#Создание-проекта)
 2) [Устанавливаем дополнения](#Устанавливаем-дополнения)
 3) []()
 4) []()
 5) []()
+
 ---
+
 ## Создание проекта
 * Открываем Visual Studio
+
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/01.png)
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/02.png)
+
 * Создаем проект
+
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/03.png)
+
 * Выбираем между:
   * xamarin.forms
   * xamarin.android
   * xamarin.ios
 
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/04.png)
+
 * Назначаем путь и название
+
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/05.png)
+
 * Выбираем шаблон
+
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/06.png)
+
 * Видем перед собой открытый файл MainActivity.cs
 ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/07.png)
+
 [:arrow_up:Оглавление](#Оглавление)
 
 ---
+
 ## Устанавливаем дополнения
 
 [:arrow_up:Оглавление](#Оглавление)
+
 ---
 
 
