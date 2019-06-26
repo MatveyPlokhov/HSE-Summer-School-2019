@@ -49,6 +49,7 @@
 * Входим/Регистрируемся
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/12.png)
 * Создаем новое приложение на Android и IOS. ```Если же вы создавали проект для определенной ОС то выбираем только её.```
+
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/14.png)
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/15.png)
   * Обязательно:
