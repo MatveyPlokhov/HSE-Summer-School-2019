@@ -49,7 +49,7 @@
 * Входим/Регистрируемся
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/12.png)
 * Создаем новое приложение на Android и IOS. ```Если же вы создавали проект для определенной ОС то выбираем только её.```
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/13.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/14.png)
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/15.png)
   * Обязательно:
     * Название приложения
@@ -58,29 +58,25 @@
   * Необязательно:
     * Иконка
     * Стадия релиза приложения
-* Открываем вкладку ```overview``` 
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/15.png)
-* Пролистываем чуть ниже и из 2-ого пункта копируем текст:
+* Открываем файл ```App.xaml.cs``` и копируем в самое начало эти строки:
   ```
   using Microsoft.AppCenter;
   using Microsoft.AppCenter.Analytics;
   using Microsoft.AppCenter.Crashes;
   ```
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/16.png)
-* Вставляем текст в начало кода 
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/17.png)
-* Далее копируем похожую строку кода:
+* Далее, копируем код ниже в метод ```OnStart()```:
   ```
-  AppCenter.Start("Your App Secret", typeof(Analytics), typeof(Crashes));
-  ```
+  AppCenter.Start("ios={Your App Secret};android={Your App Secret}", typeof(Analytics), typeof(Crashes));
+  ```  
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/18.png)
-* Вставляем скопированный код в метод ```OnCreate()```
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/19.png)
+* Заменяем {Your App Secret} на код находящийся в проекте App Center 
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/17.png)
 * Запускаем эмулятор
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/19.png)
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/20.png)
+* После запуска эмулятора в окне ```analytics``` у нас появляетя первая статистика
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/21.png)
-* После запуска эмулятора в окне ```analytics/overview``` у нас появляетя первая статистика
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/23.png)
   
 [:arrow_up:Оглавление](#Оглавление)
 ---
