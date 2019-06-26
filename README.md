@@ -26,7 +26,6 @@
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/05.png)
 * Выбираем шаблон
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/06.png)
-* Видем перед собой открытый файл MainActivity.cs
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/07.png)
   
 [:arrow_up:Оглавление](#Оглавление)
