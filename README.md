@@ -71,9 +71,10 @@
   AppCenter.Start("ios={Your App Secret};android={Your App Secret}", typeof(Analytics), typeof(Crashes));
   ```  
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/18.png)
-* Заменяем {Your App Secret} на код находящийся в проекте App Center 
+* Заменяем **{Your App Secret}** на код находящийся в проекте App Center 
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/17.png)
 * Запускаем эмулятор
+
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/19.png)
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/20.png)
 * После запуска эмулятора в окне ```analytics``` у нас появляетя первая статистика
