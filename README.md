@@ -70,7 +70,7 @@
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/18.png)
 * Далее копируем похожую строку кода:
   ```
-  AppCenter.Start(```"PROGRAM ID"```, typeof(Analytics), typeof(Crashes));
+  AppCenter.Start("**PROGRAM ID**", typeof(Analytics), typeof(Crashes));
   ```
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/19.png)
 * Вставляем скопированный код в метод ```OnCreate()```
