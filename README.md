@@ -10,46 +10,47 @@
 ## Создание проекта
 * Открываем Visual Studio
 
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/File/01.png)
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/02.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/01.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/02.png)
 * Создаем проект
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/03.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/03.png)
 * Выбираем между:
   * xamarin.forms
   * xamarin.android
   * xamarin.ios
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/04.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/04.png)
     ```
-    Лично я выбрал xamarin.android
+    Лично я выбрал xamarin.forms
     ```
 * Назначаем путь и название
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/05.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/05.png)
 * Выбираем шаблон
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/06.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/06.png)
   
 [:arrow_up:Оглавление](#Оглавление)
 ---
 ## Устанавливаем дополнения
 * В окне ```обозреватель решений``` нажимаем правой кнопкой мыши на проект и выбираем ```управление пакетами NuGet...```
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/08.png)
+
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/07.png)
 * В ```обзоре``` ищем:
   * ```Microsoft.AppCenter.Crashes```
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/09.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/08.png)
   * ```Microsoft.AppCenter.Analytics```
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/10.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/09.png)
  * Скачиваем и устанавливаем дополнения
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/11.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/10.png)
   
 [:arrow_up:Оглавление](#Оглавление)
 ---
 ## App Center
 * Открываем [App Center](https://appcenter.ms/)
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/12.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/11.png)
 * Входим/Регистрируемся
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/13.png)
-* Создаем новое приложение
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/14.png)
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/15.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/12.png)
+* Создаем новое приложение на Android и IOS. ```Если же вы создавали проект для определенной ОС то выбираем только её.```
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/13.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/15.png)
   * Обязательно:
     * Название приложения
     * ОС
@@ -58,28 +59,28 @@
     * Иконка
     * Стадия релиза приложения
 * Открываем вкладку ```overview``` 
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/16.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/15.png)
 * Пролистываем чуть ниже и из 2-ого пункта копируем текст:
   ```
   using Microsoft.AppCenter;
   using Microsoft.AppCenter.Analytics;
   using Microsoft.AppCenter.Crashes;
   ```
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/17.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/16.png)
 * Вставляем текст в начало кода 
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/18.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/17.png)
 * Далее копируем похожую строку кода:
   ```
   AppCenter.Start("Your App Secret", typeof(Analytics), typeof(Crashes));
   ```
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/19.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/18.png)
 * Вставляем скопированный код в метод ```OnCreate()```
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/20.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/19.png)
 * Запускаем эмулятор
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/21.png)
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/22.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/20.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/21.png)
 * После запуска эмулятора в окне ```analytics/overview``` у нас появляетя первая статистика
-  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Visual%20Studio%20App%20Center/23.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/23.png)
   
 [:arrow_up:Оглавление](#Оглавление)
 ---
