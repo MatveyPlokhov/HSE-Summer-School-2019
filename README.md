@@ -113,7 +113,7 @@
 * [Log Events and Crashes](http://patrickgoode.com/log-events-and-crashes-in-xamarin-forms-with-app-center/)
 * [Презентация](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/DevOps.pptx)
 * [Текст к презентации](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/DevOps_text.docx)
-* [Проект](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/FirstApp)
+* [Код](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/App.xaml.cs)
 
 [:arrow_up:Оглавление](#Оглавление)
 ---
