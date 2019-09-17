@@ -93,7 +93,17 @@
 * Если перейти по ошибке, то мы сможем узнать в какой строчке, в каком файле, на каком устройстве и с какой версией ОС произошел крах.
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/24.png)
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/25.png)
-  
+* Давайте будем предупреждать пользователя об ошибке. Для этого сделаем метод ```OnStart()``` асинхронныем с помощью ключегого слова [async](https://metanit.com/sharp/tutorial/13.3.php):
+  ```
+  protected override async void OnStart(){}
+  ```
+* Теперь сделаем [всплывающее окно](https://metanit.com/sharp/xamarin/3.8.php), которое будет предлагать отправлять данные:
+  ```
+  await MainPage.DisplayAlert("ОШИБКА", "Приносим свои извинения. Хотите ли вы отправить статистику для улучшения приложения?", "YES", "NO");
+  ```
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/26.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/27.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/28.png)
 [:arrow_up:Оглавление](#Оглавление)
 ---
 ## Ссылки:
