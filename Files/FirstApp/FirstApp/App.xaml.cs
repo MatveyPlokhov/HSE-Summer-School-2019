@@ -21,7 +21,7 @@ namespace FirstApp
 
         protected override async void OnStart()
         {
-            AppCenter.Start("ios=2a79b618-b530-41cf-85ba-36039ca9f7fa;android=eb6d0243-961a-4b21-9354-3b0f98d5642e", typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("ios={Your App Secret};android={Your App Secret}", typeof(Analytics), typeof(Crashes));
             try {
                 Crashes.GenerateTestCrash();
             }
