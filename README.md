@@ -86,7 +86,8 @@
 * [Get Started with Xamarin](https://docs.microsoft.com/en-us/appcenter/sdk/getting-started/xamarin)
 * [App Center Crashes](https://docs.microsoft.com/en-us/appcenter/sdk/crashes/xamarin)
 * [Log Events and Crashes](http://patrickgoode.com/log-events-and-crashes-in-xamarin-forms-with-app-center/)
-* [Презентация](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/Prezentatsia_1.pptx)
+* [Презентация](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/DevOps.pptx)
+* [Текст к презентации](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/DevOps_text.docx)
 
 [:arrow_up:Оглавление](#Оглавление)
 ---
