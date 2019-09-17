@@ -88,12 +88,15 @@
   Crashes.TrackError(exception);
   ```
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/22.png)
-* Ошибка произойдет, но мы этого не увидим в самом эмуляторе, поэтому давайте заглянем в App Center ```diagnostics```
+* Ошибка произойдет, но мы этого не увидим в самом эмуляторе поэтому давайте заглянем в App Center ```diagnostics```
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/23.png)
+* Если перейти по ошибке, то мы сможем узнать в какой строчке, в каком файле, на каком устройстве и с какой версией ОС произошел крах.
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/24.png)
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/25.png)
   
 [:arrow_up:Оглавление](#Оглавление)
 ---
-## Ссылки которые могут пригодиться:
+## Ссылки:
 * [Get Started with Xamarin](https://docs.microsoft.com/en-us/appcenter/sdk/getting-started/xamarin)
 * [App Center Crashes](https://docs.microsoft.com/en-us/appcenter/sdk/crashes/xamarin)
 * [Log Events and Crashes](http://patrickgoode.com/log-events-and-crashes-in-xamarin-forms-with-app-center/)
