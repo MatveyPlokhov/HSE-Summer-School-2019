@@ -19,22 +19,15 @@ namespace FirstApp
             MainPage = new MainPage();
         }
 
-        protected override async void OnStart()
+        protected override void OnStart()
         {
-            AppCenter.Start("ios=a2a1f432-3b12-412c-bbc7-6dc83b1dfc85;android=5f720092-a3ea-45c3-a45c-4d89c9355bd6", typeof(Analytics), typeof(Crashes));
-            try
-            {
+            AppCenter.Start("ios=2a79b618-b530-41cf-85ba-36039ca9f7fa;android=eb6d0243-961a-4b21-9354-3b0f98d5642e", typeof(Analytics), typeof(Crashes));
+            try{
                 Crashes.GenerateTestCrash();
             }
-            catch (Exception exception)
-            {
-                bool result = await MainPage.DisplayAlert("ОШИБКА", "Приносим свои извинения. Хотите ли вы отправить статистику для улучшения приложения?", "YES", "NO");
-                if (result) {
-                    Crashes.TrackError(exception);
-                    await MainPage.DisplayAlert("Отправка", "Ошибка была отправлена", "OK");
-                }
+            catch (Exception exception){
+                Crashes.TrackError(exception);
             }
-
         }
 
         protected override void OnSleep()

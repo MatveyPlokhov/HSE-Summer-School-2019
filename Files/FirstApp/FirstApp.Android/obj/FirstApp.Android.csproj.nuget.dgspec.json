@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FirstApp\\FirstApp\\FirstApp.Android\\FirstApp.Android.csproj": {}
+    "D:\\Desktop\\документы\\GIT\\HSE-Summer-School-2019\\Files\\FirstApp\\FirstApp.Android\\FirstApp.Android.csproj": {}
   },
   "projects": {
-    "D:\\FirstApp\\FirstApp\\FirstApp.Android\\FirstApp.Android.csproj": {
+    "D:\\Desktop\\документы\\GIT\\HSE-Summer-School-2019\\Files\\FirstApp\\FirstApp.Android\\FirstApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FirstApp\\FirstApp\\FirstApp.Android\\FirstApp.Android.csproj",
+        "projectUniqueName": "D:\\Desktop\\документы\\GIT\\HSE-Summer-School-2019\\Files\\FirstApp\\FirstApp.Android\\FirstApp.Android.csproj",
         "projectName": "FirstApp.Android",
-        "projectPath": "D:\\FirstApp\\FirstApp\\FirstApp.Android\\FirstApp.Android.csproj",
+        "projectPath": "D:\\Desktop\\документы\\GIT\\HSE-Summer-School-2019\\Files\\FirstApp\\FirstApp.Android\\FirstApp.Android.csproj",
         "packagesPath": "C:\\Users\\matve\\.nuget\\packages\\",
-        "outputPath": "D:\\FirstApp\\FirstApp\\FirstApp.Android\\obj\\",
+        "outputPath": "D:\\Desktop\\документы\\GIT\\HSE-Summer-School-2019\\Files\\FirstApp\\FirstApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\FirstApp\\FirstApp\\FirstApp\\FirstApp.csproj": {
-                "projectPath": "D:\\FirstApp\\FirstApp\\FirstApp\\FirstApp.csproj"
+              "D:\\Desktop\\документы\\GIT\\HSE-Summer-School-2019\\Files\\FirstApp\\FirstApp\\FirstApp.csproj": {
+                "projectPath": "D:\\Desktop\\документы\\GIT\\HSE-Summer-School-2019\\Files\\FirstApp\\FirstApp\\FirstApp.csproj"
               }
             }
           }
@@ -72,24 +72,24 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[1.3.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.540366, )"
+              "version": "[4.2.0.778463, )"
             }
           }
         }
       }
     },
-    "D:\\FirstApp\\FirstApp\\FirstApp\\FirstApp.csproj": {
+    "D:\\Desktop\\документы\\GIT\\HSE-Summer-School-2019\\Files\\FirstApp\\FirstApp\\FirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FirstApp\\FirstApp\\FirstApp\\FirstApp.csproj",
+        "projectUniqueName": "D:\\Desktop\\документы\\GIT\\HSE-Summer-School-2019\\Files\\FirstApp\\FirstApp\\FirstApp.csproj",
         "projectName": "FirstApp",
-        "projectPath": "D:\\FirstApp\\FirstApp\\FirstApp\\FirstApp.csproj",
+        "projectPath": "D:\\Desktop\\документы\\GIT\\HSE-Summer-School-2019\\Files\\FirstApp\\FirstApp\\FirstApp.csproj",
         "packagesPath": "C:\\Users\\matve\\.nuget\\packages\\",
-        "outputPath": "D:\\FirstApp\\FirstApp\\FirstApp\\obj\\",
+        "outputPath": "D:\\Desktop\\документы\\GIT\\HSE-Summer-School-2019\\Files\\FirstApp\\FirstApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -137,11 +137,11 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[1.3.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.540366, )"
+              "version": "[4.2.0.778463, )"
             }
           },
           "imports": [

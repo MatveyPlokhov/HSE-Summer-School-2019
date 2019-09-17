@@ -80,6 +80,16 @@
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/20.png)
 * После запуска эмулятора в окне ```analytics``` у нас появляетя первая статистика
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/21.png)
+* Теперь давайте сделаем тестовую ошибку в конструкторе [try{}catch{}](https://metanit.com/sharp/tutorial/2.14.php) и отправим об этом информацию в App Center
+  ```
+  //тестовая ошибка
+  Crashes.GenerateTestCrash();
+  //отправка ошибки на сервер
+  Crashes.TrackError(exception);
+  ```
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/22.png)
+* Ошибка произойдет, но мы этого не увидим в самом эмуляторе, поэтому давайте заглянем в App Center ```diagnostics```
+  ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/23.png)
   
 [:arrow_up:Оглавление](#Оглавление)
 ---
