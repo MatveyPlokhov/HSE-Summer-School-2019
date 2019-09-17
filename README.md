@@ -77,6 +77,7 @@
 
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/19.png)
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/20.png)
+  
 * После запуска эмулятора в окне ```analytics``` у нас появляетя первая статистика
   ![](https://github.com/MatveyPlokhov/HSE-Summer-School-2019/blob/master/Files/21.png)
   
